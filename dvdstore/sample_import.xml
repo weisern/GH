@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<dvd>
+<item>
+<barcode>9317731006357</barcode>
+<title>Bicentennial Man, The</title>
+<synopsis>From director Chris Columbus comes this original, funny and heart-warming film.
+When Richard Martin (Sam Neill) introduced a robot named Andrew (Robin Williams) to the family,
+nobody expects anything more than an ordinary household appliance.
+But this is no ordinary robot! Andrew is a unique machine with real emotions, a sense of humour and a 
+burning curiosity to discover what it means to be human.
+Over the course of his service with the Martins, spanning two hundred years and several generations, 
+Andrew discovers much about the intricacies of life and love, and finds there are many things he can teach as well as learn.
+Will Andrew ever achieve his goal to become human and possess the freedom to pursue a life of his own?
+And will he be prepared to pay the cost?</synopsis>
+<stock_avail>12</stock_avail>
+<sell_price>24.22</sell_price>
+<cost>16.54</cost>
+<director first_name="Chris" last_name="Columbus" />
+<actor first_name="Robin" last_name="Williams" />
+<actor first_name="Sam" last_name="Neill" />
+<genre description="Comedy" />
+<genre description="Science Fiction" />
+</item>
+</dvd>

@@ -1,0 +1,84 @@
+<style>
+<!--
+BODY,TD  { font-size: 12px; 
+        font-family: arial,verdana,courier }
+A    { font-family: arial;color: green; text-decoration:none; font-weight:bold; }
+A:HOVER  { color: red; }
+
+H1    { font-size: 18px;
+        font-family: arial,verdana,courier;
+		letter-spacing: 1em;
+		font-weight:bold;
+		color: darkorange;
+	}
+H2, .h2    { font-size: 18px;
+        font-weight: bold;
+        font-family: arial,verdana,courier;
+		color: purple;
+}
+H3, .h3    { font-size: 16px; 
+        font-weight: bold;
+        font-family: arial,verdana,courier
+}
+
+HR    { color: darkslateblue; align: center; width: 70%; height: 1; }
+
+TH { font-family: arial; color: azure; font-weight: bold; background-color: #1115AB; vertical-align: top;}
+
+.link { font-size: 15px; color: green; text-decoration:none; font-weight:bold; }
+.link:hover { color: red; }
+.large {
+	font-size: 15pt;
+	letter-spacing: 0.3em;
+}
+.medium {
+	font-size: 12pt;
+}
+.small { font-size: 9pt; }
+
+.button {
+	color: #191970;
+	font-weight: bold;
+	background: azure;
+}
+.note, .error {
+	color: red;
+	font-weight: bold;
+}
+.success {
+	color: blue;
+	font-weight: bold;
+}
+.form {
+	background-color:white;
+	border-color: black;
+	border-width:1;
+}
+.price
+{
+	color: cadetblue;
+	font-weight: bold;
+}
+.help {
+	color: gray;
+}
+.bold { font-weight: bold; }
+.textarea  {
+	background-color:white;
+	border-color: black;
+	border-width:1;
+	font-size: 8pt;
+}
+.listing {
+	background-color: #CCCCCC;
+}
+.border {
+	border: thin solid black;
+	background-color: #2E8B57;
+	border-style: solid;
+	border-color: Black;
+}
+.pages A { color: blue; }
+.pages A:hover { color: black; }
+-->
+</style>

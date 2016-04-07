@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>433-351 Project: Online DVD Store</title>
+<link rel="stylesheet" type="text/css" href="http://www.cs.mu.oz.au/351/course.css">
+</head>
+
+<body>
+<h1>433-351 Project: Online DVD Store</h1>
+
+<table>
+   <tr>
+      <th valign="top">Team:</th>
+      <td>
+	 David Rochwerger &lt;droch&gt;<br>
+	 Wei-Sern Loh &lt;wsloh&gt;<br>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top">Domain:</th>
+      <td>
+	 This project is an <b>Online DVD Store</b> that allows customers to
+	 purchase DVDs online.<br>
+	 We have limited the features of this store in
+	 order to reduce the complexity to one appropiate to this project.
+      </td>
+   </tr>
+   <tr>
+      <th valign="top">Data:</th>
+      <td>
+      <li>Initial customers will be populated manually by INSERT SQL-statements.
+      <li>Some DVDs will be be populated via SQL-statements, and others via the <font color="seagreen"><b>receipt-in goods</b></font> form.
+      <li>The actors & directors will be populated at the same time that DVDs are entered.
+      <li>Orders and shopping carts will be populated via the store's interface - ie: we will go shopping :)
+      </td>
+   </tr>
+   <tr>
+      <th valign="top">Queries:</th>
+      <td>
+	<ol>
+	  	<li>Select all DVD titles that star <b>Tom Hanks</b>.</li>
+		<li>Select all DVD titles and pictures that are in the genre of <b>Science Fiction</b>.</li>
+		<li>Select all DVD titles that start with the letter <b>M</b.></li>
+		<li>Show me the top 5 profitable DVDs (ie DVDs that have the highest profit per unit).</li>
+		<li>Show me our best 5 customers (customers that have spent the most at our store).</li>
+		<li>Show me the status of our warehouse and highlight the DVDs that have less than 5 items in stock.</li>
+		<li>How many customers do we have that live in Victoria?</li>
+		<li>How many customers dow we have that are between 15 to 20 years old?</li>
+		<li>What DVDs are currently in my basket (shopping trolley)?</li>
+		<li>Which DVD title is the most popular (sold the most titles)?</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <th>Reports:</th>
+      <td>
+	 There 7 reports available in the Admin Interface:
+		<ol>
+			<li><b>Top 5 Profitable DVDs</b> - This report lists top 5 DVDs that have the highest per unit
+				profit (the sell price minus the cost)</li>
+			<li><b>Stock Sales to Date</b> - This is a naive "Profit & Loss" statement. 
+				It itemises each title and compares how many items we have sold with how many items we have in stock.</li>
+			<li><b>Stock Status</b> - This tells teh user how much stock there is of each item. Items with less than 5 stock
+				are highlighted yellow and items with no stock are highlighted red.</li>
+			<li><b>Popular DVDs</b> - Lists the top 10 popular DVDs (DVDs are ranked popular by how many have been purchased).</li>
+			<li><b>Customer Demographics</b> - Shows the demographics of the customers by state (ie: VIC, NSW, etc) and age group.</li>
+			<li><b>Popular Genres</b> - Lists the top 10 popular genres (also ranked by how many DVDs have been bought). Note: that since
+				DVDs can have multiple Genres, the total figure may be more than the total number of DVDs actually purchased.</li>
+			<li><b>Best Customers</b> - Lists the five best customers ranked by how much they have spent.</li>
+		</ol>
+	There are two "views" or interfaces available - The <b>Customer</b> interface and the <b>Admin</b> interface.<br>
+	The customer interface allows users to create their own account, log in, search for DVDs, add DVDs to their basket (or shopping trolley)
+	and checkout (or purchase) the DVDs in their basket. It also allows them to edit their own profile (name, address, credit card details, etc).<br>
+	The admin interface allows the admin to log in (password is <b><u>quasar</u></b>), add/edit/delete DVDs, add/edit/delete actors, add/edit/delete
+	directors, add/edit/delete Genres, view reports and import XML data into the database.<br>
+	<i>As a side note, the application won't let the admin user delete dvds that have been purchased/in baskets (but they can deactivate them). It also
+	won't let him delete genres,actors or directors that are associated with at least one DVD.</i>
+      </td>
+   </tr>
+
+   <tr>
+      <th>E-R Diagram:</th>
+      <td>
+	 <a href="images/er_diagram.gif">er_diagram.gif</a>
+      </td>
+   </tr>
+
+   <tr>
+      <th>SQL Defn:</th>
+      <td>
+	 <a href="schema.sql">schema.sql</a>
+      </td>
+   </tr>
+
+   <tr>
+      <th>Implementation:</th>
+      <td>
+	 <a href="project.php">project.php</a>
+      </td>
+   </tr>
+
+</table>
+
+
+</body>
+</html>
